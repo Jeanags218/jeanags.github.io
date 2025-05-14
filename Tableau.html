@@ -1,0 +1,137 @@
+<title> TABLEAU </title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <p> Voici quelques tableaux </p>
+    <table>
+    <caption style="text-decoration: underline;">Passagers du vol 377</caption>
+    <thead> <!-- En-tête du tableau -->
+     <tr>
+      <th>Nom</th>
+      <th>Age</th>
+      <th>Pays</th>
+     </tr>
+    </thead>
+    <tfoot> <!-- Pied de tableau -->
+     <tr>
+      <th>Nom</th>
+      <th>Age</th>
+      <th>Pays</th>
+     </tr>
+    </tfoot>
+ <tbody> <!-- Corps du tableau -->
+     <tr>
+      <td>Carmen</td>
+      <td>33 ans</td>
+      <td>Espagne</td>
+     </tr>
+    <tr>
+     <td>Michelle</td>
+     <td>26 ans</td>
+     <td>Etats-Unis</td>
+    </tr>
+    <tr>
+        <td>François</td>
+        <td>43 ans</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Martine</td>
+        <td>34 ans</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Jonathan</td>
+        <td>13 ans</td>
+        <td>Australie</td>
+     </tr>
+    <tr>
+        <td>Xu</td>
+        <td>19 ans</td>
+        <td>Chine</td>
+    </tr>
+ </tbody>
+</table>
+<style type="text/css">
+   @import url(Style.css);
+</style> <br/>
+<table>
+  <tr>
+    <th>Titre du film</th>
+    <th>Pour enfants ?</th>
+    <th>Pour adolescents ?</th>
+  </tr>
+  <tr>
+    <td>Massacre à la tronçonneuse</td>
+    <td > <span style="color: red;"> Non, trop violent</span></td>
+    <td> <span style="color: green;"> Oui </span></td>
+  </tr>
+  <tr>
+    <td>Les bisounours font du ski</td>
+    <td> <span style="color: green;"> Oui, adapté</span></td>
+    <td> <span style="color: red;"> Pas assez violent...</span></td>
+  </tr>
+  <tr>
+    <td>Lucky Luke, seul contre tous</td>
+    <td colspan="2"> <span style="color:green;"> Pour toute la famille !</span></td>
+    </tr>
+</table> <br/>
+<table>
+    <tr>
+        <th> Matricule </th>
+        <th> Nom </th>
+        <th> Prénoms </th>
+        <th> Sexe</th>
+    </tr>
+    <tr>
+        <td> 35725</td>
+        <td>EGBO</td>
+        <td> Bienderand</td>
+        <td>Masculin</td>
+    </tr>
+    <tr>
+        <td> 56425</td>
+        <td>MIASSI</td>
+        <td>Arys</td>
+        <td>Masculin</td>
+    </tr>
+    <tr>
+        <td>29225</td>
+        <td>TCHEDJI</td>
+        <td>Dossi</td>
+        <td>Féminin</td>
+    </tr>
+</table> <br/>
+<style>
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    table{
+        margin-right: 150px;
+    }
+</style>
+<div class="container">
+    <table>
+        <caption style="text-decoration: underline;"> Tableau 1 </caption>
+        <tr>
+            <strong><td rowspan="2" style="writing-mode: vertical-rl;transform: rotate(180deg); text-align: center;background-color: green; color: red;"> IG1</td></strong>
+            <td> GTL1</td>
+        </tr>
+        <tr>
+            <td>GC1</td>
+        </tr>
+    </table>
+    <table>
+        <caption style="text-decoration: underline;"> Tableau 2</caption>
+        <tr>
+            <td colspan="2" style="text-align: center;"><strong><em><span style="color: green;"> IG2 </span></td></em></strong>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-25deg);"> GTL2</td>
+            <td style="transform: rotate(-25deg);"> GC2</td>
+        </tr>
+    </table>
+</div>
+<style>
+    @import url(Code2.css);
+</style>
